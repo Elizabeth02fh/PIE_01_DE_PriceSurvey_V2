@@ -7,7 +7,7 @@ The process of the project video in this link
 
 ## ETL Workflow Diagram.
 
-<img src="images/pipeline.png" width="650" height="350" align="right">
+<img src="images1/pipeline.png" width="650" height="350" align="right">
 
 Then, according to the three stages of the ETL process and the required subtopics, the following is presented:
 
@@ -31,8 +31,8 @@ The concat function in Python was used to concatenate the price_weeks tables, si
 Finally, the SQLAlchemy library in Python was used to be able to connect to the database that previously created it in MySQL "preciosdb", from there I loaded the datasets all ok to my database, then the alter tables were made, for assign PRIMARY KEY and FOREIGN KEY that warranted it.
 The generated database is finally shown like this:
 
-<img src="images/DER.jpg" width="700" height="350" align="center">
+<img src="images1/DER.jpg" width="700" height="350" align="center">
 
 ### query
 Finally, a query was made to verify if the database works: Average price of the 9-1-688 branch, which resulted in:203.64690382081687.
-<img src="images/answer.JPG" width="900" height="180" align="left">
+<img src="images1/answer.JPG" width="900" height="180" align="left">
